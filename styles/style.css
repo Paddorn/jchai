@@ -1,4 +1,7 @@
 #hero {
+    background-image: url("/jchai/media/images/hero-image.jpg");
+    background-position: bottom;
+    background-size: cover;
     height: 800px;
 }
 
@@ -14,11 +17,12 @@
     width: 900px;
 }
 
-#hero-content h1{
+#hero-content h1 {
     font-family: "Raleway", sans-serif;
     font-size: 50px;
     margin: 0;
     text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgb(241, 240, 240);
 }
 
 #hero-content p {
