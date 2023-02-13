@@ -15,7 +15,7 @@ main ul {
 main li {
     background-color: white;
     border-radius: 6px;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0.2);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     display: flex;
     overflow: hidden;
 }
@@ -31,4 +31,20 @@ main li img {
     flex-direction: column;
     justify-content: space-between;
     padding: 24px;
+}
+
+.actions 
+{
+    text-align: right;
+}
+
+.actions a {
+    border-radius: 5px;
+    color: rgb(22, 211, 228);
+    padding: 6px;
+    text-decoration: none;
+}
+
+.actions a:hover {
+    background-color: rgb(235, 253, 255);
 }
