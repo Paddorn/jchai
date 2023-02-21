@@ -8,10 +8,16 @@ header {
 }
 
 main ul {
-    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
     margin: 0 auto;
+    width: 1200px;
 }
 
+li:nth-last-of-type(3){
+    grid-column: 1 / span 2;
+}
 main li {
     background-color: white;
     border-radius: 6px;
