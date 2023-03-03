@@ -1,6 +1,13 @@
-main{
+html{
+    text-align: center;
+}
+.top-container{
     background-color: #BFEAF5;
-    text-align: center;  
+    padding-bottom: 500px;
+    text-align:center;
 }
 
-
+h1{
+    position: relative;
+    top: 50px;
+}
